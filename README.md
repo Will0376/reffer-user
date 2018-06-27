@@ -1,2 +1,6 @@
 # reffer-user
-Отображение рефералов от реф.системы http://rubukkit.org/threads/dle-referalnaja-sistema-pooschrenie.156233/
+Отображение рефералов от реф.системы http://rubukkit.org/threads/dle-referalnaja-sistema-pooschrenie.156233/ Для DLE.
+!!!ПИСАЛОСЬ ДЛЯ СЕБЯ!!!
+Папка reffer-user для обычного юзера, стоит защита конфиг файла. Можно импортировать в стат. страницу, достаточно настроить config.php
+
+Папка reffer-admin для админов(спс кеп),убрана защита config.php,добавленна защита по паролю и нику. Переходить по ссылке <папка скрипта>/reffer.php?pass=<ваш пароль>&adm=<ваш ник,чуствительно к регистру>  ; Настройка: config.php и в reffer.php(11 строка)
