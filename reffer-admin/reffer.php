@@ -49,7 +49,7 @@ $result = mysql_query ("SELECT * from dle_users WHERE byurl = '". $player ."'");
 if(($num_rows =  mysql_num_rows($result)) == 0)  
 { 
 	echo'<tr>';
-	echo'<td width="40%"><strong><b>Он никого не пригласили!</b></strong></td>';
+	echo'<td width="40%"><strong><b>Он никого не пригласил!</b></strong></td>';
 	echo'<td width="40%"><strong><b></b></strong></td>';
 	echo'</tr>';
    goto entfree;
